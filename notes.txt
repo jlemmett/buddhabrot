@@ -1,0 +1,32 @@
+Buddhabrot
+
+Nykyinen toiminta
+
+- Käydään loputtomasti satunnaisia pisteitä tietyltä x,y-alueelta 
+  (- (rand 6) 3)   -3 .. 3 ?
+
+- Kutsutaan jokaiselle pisteelle calc-pathia, joka tuottaa listan
+  pisteitä? 
+ 
+- calc-path:
+Loopataan kunnes max-iterations tulee täyteen
+
+Loopissa:
+
+z = c  (= x,y piste)
+path = []
+
+Mystisesti.. en oikein tajua miten toi toimii, jos max-iteraatiot
+ylitetään.. niin palauttaa tyhjän listan. Niin aivan, se tarkoittaa,
+että silloin kyseinen piste ei 'karkaa' funktioiteraatiossa eikä
+tällöin tätä pistettä piirretä mitenkään.
+
+Tähän asti kuitenkin loopataan niin, että jokainen iteraation
+välivaihe lisätään path-listaan ja loopetaan eteenpäin kunnes z:n
+itseisarvo on yli 2.0.
+
+Eli jokaiselle konvergoivalle pisteelle tulee kokoelma niitä
+iteraation välivaiheita listaan.
+
+
+

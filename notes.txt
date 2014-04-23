@@ -3,6 +3,8 @@ TODO
 - More interactivity, maybe simple GUI app?
 - dump state to disk - resume later
 - MAKE IT FASTER
+  - http://www.steckles.com/buddha/
+  
 
 
 
